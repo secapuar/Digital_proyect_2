@@ -1,0 +1,10 @@
+body{
+  background-color: var(--black);
+  text-align: center;
+  color: var(--white);
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}

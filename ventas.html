@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/mobile.css">
+  <link rel="stylesheet" href="CSS/animetion.css">
+  <link rel="stylesheet" href="CSS/grid.css">
+  <title>Brand</title>
+</head>
+<body>
+  <!-- aqui empieza el navbar -->
+<nav class= "fadeInDown">
+
+<img src="images/logo.png" alt=""width="50" height="50" >
+<div class="nav_option"></div>
+<!-- <div class="option">faqs</div>
+<div class="option">Producto y descripcion</div> -->
+<ul>
+  <li><a href="#">Faqs</a></li>
+  <li><a href="#">Producto y descripcion</a></li>
+</ul>
+</nav>
+  <!-- aqui termina el navbar -->
+<br>
+<br>
+
+<!-- aqui comienza el body -->
+<div class="container">
+<div class="row">
+  <div class="colum4">
+    <div class="modulopago">
+      <div class="modulopagoimages">
+      <img src="images/producto1.png" alt="">
+      </div>
+
+      <h3>Producto 1</h3>
+      <p>Este es el producto 1</p>
+    </div>
+  </div>
+  <div class="colum8">
+    <div class="modulopago">
+      <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=782XXXJ3WLCKKU" method="post">
+        <label for="name">Nombre</label>
+        <br>
+        <input type="text" placeholder="" name="name" class="data">
+<br>
+        <label for="mail">mail</label>
+        <br>
+        <input type="text" name="mail" placeholder="" class="data">
+        <br>
+        <label for="phone">telefono</label>
+        <br>
+        <input type="text" name="phone" placeholder="" class="data">
+        <br>
+
+        <input type="submit" class="main_bottom" name="submit" value="confirmar pago">
+
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- aqui termina el body -->
+
+<!-- aqui comienza footer -->
+  <footer>
+    <div class="option">Terminos y condiciones</div>
+    <div class="option">contacto@brand.com</div>
+  </footer>
+
+
+  <script src="Script/script.js" charset="utf-8"></script>
+</body>
+</html>
